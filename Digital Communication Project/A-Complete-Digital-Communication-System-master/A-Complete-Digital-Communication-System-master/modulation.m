@@ -5,7 +5,7 @@ function modulated = modulation(modulation_name, bit_stream, Rb, k, amp, freq)
 %     Rb = bit rate 
 %     k = samples per bit
 %     amp = amplitude of the modulated signal
-%           scaler for BPSK and QPSK, vector ([max min]) for BASK
+%           scaler for BPSK, vector ([max min]) for BASK
 %     freq = carrier frequency of the modulated signal 
 % OUTPUT: 
 %     modulated = modulated signal of the bit stream 
